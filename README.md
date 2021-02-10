@@ -6,6 +6,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Development server with PWA
+
+Run `ng buid --prod` to build the project and register service worker. Then go to directory /dist/angular-cadastro-de-seguros and run `npx serve` for a dev server. Navigate to `http://localhost:5000/`.
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
